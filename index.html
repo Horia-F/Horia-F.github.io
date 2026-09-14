@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Horia's cybersecurity research, projects, and learning notes." />
-    <title>Horia F. | Cybersecurity</title>
+    <meta name="description" content="HoriaF's Blog — research, projects, and achievements." />
+    <title>HoriaF's Blog</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -14,13 +14,13 @@
   <body>
     <div class="page-shell">
       <header class="site-header">
-        <a class="brand" href="index.html" aria-label="Horia F. home">
+        <a class="brand" href="index.html" aria-label="HoriaF's Blog home">
           <span class="brand-mark">&gt;_</span>
-          <span>horia<span class="accent">.sec</span></span>
+          <span>HoriaF<span class="accent">'s Blog</span></span>
         </a>
 
         <nav class="site-nav" aria-label="Primary navigation">
-          <a href="index.html">Home</a>
+          <a class="current" aria-current="page" href="index.html">Home</a>
           <a href="research.html">Research</a>
           <a href="awards.html">Awards</a>
           <a class="nav-button" href="https://github.com/Horia-F">GitHub ↗</a>
@@ -30,46 +30,56 @@
       <main id="top">
         <section class="hero" aria-labelledby="hero-title">
           <div class="hero-copy">
-            <p class="eyebrow"><span class="status-dot"></span> Cybersecurity / notes / projects</p>
-            <h1 id="hero-title">Hi, I’m Horia.<br /><span>I like figuring things out.</span></h1>
-            <p class="hero-text">
-              This is my corner of the internet for the things I’m learning, building, and testing
-              while finding my way through cybersecurity.
-            </p>
+            <h1 id="hero-title">HoriaF’s<br /><span>Blog.</span></h1>
+            <p class="hero-text">Research, projects, and awards.</p>
             <div class="hero-actions">
-              <a class="button button-primary" href="research.html">Read my research <span>↗</span></a>
-              <a class="button button-quiet" href="awards.html">See my awards <span>↗</span></a>
+              <a class="button button-primary" href="research.html">Research <span>↗</span></a>
+              <a class="button button-quiet" href="awards.html">Awards <span>↗</span></a>
             </div>
           </div>
 
-          <div class="terminal-card" aria-label="Current focus">
-            <div class="terminal-topbar">
-              <span></span><span></span><span></span>
-              <small>currently.txt</small>
-            </div>
-            <div class="terminal-body">
-              <p><span class="prompt">$</span> cat currently.txt</p>
-              <p class="terminal-output">learning security<br />writing things down<br />staying curious</p>
-              <p><span class="prompt">$</span> <span class="cursor">_</span></p>
-            </div>
+          <div class="abstract-card" aria-hidden="true">
+            <div class="abstract-grid"></div>
+            <div class="abstract-orbit orbit-one"></div>
+            <div class="abstract-orbit orbit-two"></div>
+            <div class="abstract-core">H/F</div>
+            <span class="abstract-node node-one"></span>
+            <span class="abstract-node node-two"></span>
+            <span class="abstract-node node-three"></span>
+            <span class="abstract-label label-top">01</span>
+            <span class="abstract-label label-bottom">SECURITY</span>
           </div>
         </section>
 
-        <section class="section latest-section" aria-labelledby="latest-title">
+        <section class="section explore-section" aria-labelledby="explore-title">
           <div class="section-heading">
             <div>
-              <p class="eyebrow">01 / Latest note</p>
-              <h2 id="latest-title">A place to keep track.</h2>
+              <p class="eyebrow">01 / Explore</p>
+              <h2 id="explore-title">The archive</h2>
             </div>
-            <p class="section-intro">Research write-ups, small experiments, and the occasional lesson learned the hard way.</p>
+            <p class="section-intro">Choose a section.</p>
           </div>
 
-          <article class="research-card featured-card">
-            <div class="card-meta"><span class="tag">START HERE</span><span>Welcome</span></div>
-            <h3>Why I’m building this notebook</h3>
-            <p>A short introduction to this site and what I’ll be documenting here.</p>
-            <a class="read-link" href="posts/welcome.html">Read the post <span>→</span></a>
-          </article>
+          <div class="explore-grid">
+            <a class="explore-card" href="research.html">
+              <span class="explore-number">01</span>
+              <h3>Research</h3>
+              <p>Write-ups and projects.</p>
+              <span class="card-arrow">↗</span>
+            </a>
+            <a class="explore-card" href="awards.html">
+              <span class="explore-number">02</span>
+              <h3>Awards</h3>
+              <p>Competitions and milestones.</p>
+              <span class="card-arrow">↗</span>
+            </a>
+            <a class="explore-card" href="https://github.com/Horia-F">
+              <span class="explore-number">03</span>
+              <h3>GitHub</h3>
+              <p>Code and repositories.</p>
+              <span class="card-arrow">↗</span>
+            </a>
+          </div>
         </section>
       </main>
 
