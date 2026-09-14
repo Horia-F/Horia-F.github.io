@@ -28,6 +28,7 @@ nav .button:hover { color: #fff; background: var(--purple-light); }
 .content-page { padding: 110px 0; }
 .achievements-page > h1 { margin-bottom: 14px; font-size: clamp(1.8rem, 3vw, 2.6rem); text-align: center; }
 .achievements-page > .page-note { text-align: center; }
+.posts-page > h1 { margin-bottom: 14px; font-size: clamp(1.8rem, 3vw, 2.6rem); text-align: center; }
 .home-page { display: grid; min-height: calc(100vh - 82px); place-content: center; }
 .intro { width: min(100%, 720px); margin: 0 auto; padding: 48px clamp(24px, 6vw, 70px); border: 1px solid var(--border); border-radius: 28px; background: #050505; text-align: center; }
 .intro h2 { margin: 0 0 28px; color: var(--purple-light); font-size: clamp(2.1rem, 5vw, 3.5rem); font-weight: 700; letter-spacing: -.05em; }
@@ -35,16 +36,13 @@ nav .button:hover { color: #fff; background: var(--purple-light); }
 .intro p:last-child { margin-bottom: 0; }
 h1 { margin: 0 0 18px; font-size: clamp(2.8rem, 7vw, 5.5rem); letter-spacing: -.07em; line-height: 1; }
 .page-note { color: var(--gray); font-size: 16px; }
-.post-index { max-width: 760px; margin-top: 55px; }
-.post-card { display: block; padding: 28px; border: 1px solid var(--border); border-radius: 12px; background: #050505; }
+.post-index { max-width: 760px; margin: 55px auto 0; }
+.post-card { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 20px 24px; border: 1px solid var(--border); border-radius: 8px; background: #050505; }
 .post-card:hover { border-color: var(--purple); }
-.post-card-label { color: var(--purple-light); font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
-.post-card h2 { margin: 35px 0 10px; color: var(--white); font-size: 28px; letter-spacing: -.04em; }
-.post-card p { max-width: 650px; margin: 0; color: var(--gray); font-size: 16px; line-height: 1.7; }
-.post-card-link { display: inline-block; margin-top: 24px; color: var(--purple-light); font-size: 14px; font-weight: 700; }
+.post-card h2 { margin: 0; color: var(--white); font-size: 20px; letter-spacing: -.03em; }
+.post-card-link { color: var(--purple-light); font-size: 14px; font-weight: 700; white-space: nowrap; }
 .post-page { max-width: 850px; padding-top: 80px; padding-bottom: 120px; }
 .post-page h1 { max-width: 760px; font-size: clamp(2.6rem, 6vw, 5rem); }
-.post-meta { margin-bottom: 55px; color: var(--purple-light); font-size: 13px; font-weight: 700; }
 .post-body { color: var(--gray); font-size: 17px; line-height: 1.8; }
 .post-body h2 { margin: 55px 0 16px; color: var(--white); font-size: 28px; }
 .post-body p { margin: 0 0 20px; }
@@ -70,6 +68,7 @@ h1 { margin: 0 0 18px; font-size: clamp(2.8rem, 7vw, 5.5rem); letter-spacing: -.
   nav .button { display: none; }
   .content-page { padding: 80px 0; }
   .post-page { padding-top: 60px; padding-bottom: 80px; }
+  .post-card { align-items: flex-start; flex-direction: column; }
   .post-body { font-size: 16px; }
   .home-page { min-height: calc(100vh - 122px); }
   .achievement-seasons { margin-top: 55px; }
