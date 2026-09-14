@@ -57,7 +57,7 @@ h1 { margin: 0 0 18px; font-size: clamp(2.8rem, 7vw, 5.5rem); letter-spacing: -.
 .achievement-year:last-child { margin-bottom: 0; }
 .achievement-year h2 { margin: 0 0 25px; color: var(--purple-light); font-size: 32px; font-weight: 700; letter-spacing: -.05em; }
 .achievement-list { margin: 0; padding: 0 0 0 27px; border-top: 1px solid var(--border); }
-.achievement-entry { padding: 18px 0 18px 5px; border-bottom: 1px solid var(--border); color: var(--white); font-size: 17px; line-height: 1.5; }
+.achievement-entry { overflow-x: auto; padding: 18px 0 18px 5px; border-bottom: 1px solid var(--border); color: var(--white); font-size: 17px; line-height: 1.5; white-space: nowrap; }
 .achievement-entry::marker { color: var(--purple); font-size: 1.15em; }
 .achievement-entry strong { color: var(--gray); font-weight: 500; }
 .status-tbd { color: var(--purple-light); font-size: .85em; font-weight: 600; }
@@ -73,6 +73,5 @@ h1 { margin: 0 0 18px; font-size: clamp(2.8rem, 7vw, 5.5rem); letter-spacing: -.
   .post-body { font-size: 16px; }
   .home-page { min-height: calc(100vh - 122px); }
   .achievement-seasons { margin-top: 55px; }
-  .achievement-entry { align-items: flex-start; font-size: 15px; }
-  .achievement-entry strong { display: block; }
+  .achievement-entry { font-size: 15px; }
 }
