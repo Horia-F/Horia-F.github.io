@@ -43,6 +43,7 @@ h1 { margin: 0 0 18px; font-size: clamp(2.8rem, 7vw, 5.5rem); letter-spacing: -.
 .achievement-entry { padding: 18px 0 18px 5px; border-bottom: 1px solid var(--border); color: var(--white); font-size: 17px; line-height: 1.5; }
 .achievement-entry::marker { color: var(--purple); font-size: 1.15em; }
 .achievement-entry strong { color: var(--gray); font-weight: 500; }
+.status-tbd { color: var(--purple-light); font-size: .85em; font-weight: 600; }
 
 @media (max-width: 650px) {
   .site-shell { width: min(100% - 30px, 540px); }
