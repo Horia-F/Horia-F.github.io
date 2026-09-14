@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Horia's cybersecurity research, write-ups, achievements, and learning notes." />
-    <title>Horia F. | Cybersecurity Research</title>
+    <meta name="description" content="Horia's cybersecurity research, projects, and learning notes." />
+    <title>Horia F. | Cybersecurity</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -14,15 +14,15 @@
   <body>
     <div class="page-shell">
       <header class="site-header">
-        <a class="brand" href="#top" aria-label="Horia F. home">
+        <a class="brand" href="index.html" aria-label="Horia F. home">
           <span class="brand-mark">&gt;_</span>
           <span>horia<span class="accent">.sec</span></span>
         </a>
 
         <nav class="site-nav" aria-label="Primary navigation">
-          <a href="#research">Research</a>
-          <a href="#awards">Awards</a>
-          <a href="#about">About</a>
+          <a href="index.html">Home</a>
+          <a href="research.html">Research</a>
+          <a href="awards.html">Awards</a>
           <a class="nav-button" href="https://github.com/Horia-F">GitHub ↗</a>
         </nav>
       </header>
@@ -30,102 +30,52 @@
       <main id="top">
         <section class="hero" aria-labelledby="hero-title">
           <div class="hero-copy">
-            <p class="eyebrow"><span class="status-dot"></span> Security research &amp; learning notes</p>
-            <h1 id="hero-title">Learning how systems<br /><span>break and recover.</span></h1>
+            <p class="eyebrow"><span class="status-dot"></span> Cybersecurity / notes / projects</p>
+            <h1 id="hero-title">Hi, I’m Horia.<br /><span>I like figuring things out.</span></h1>
             <p class="hero-text">
-              I’m Horia, a cybersecurity learner documenting research, practical experiments,
-              and the lessons behind each finding.
+              This is my corner of the internet for the things I’m learning, building, and testing
+              while finding my way through cybersecurity.
             </p>
             <div class="hero-actions">
-              <a class="button button-primary" href="#research">Explore research <span>↓</span></a>
-              <a class="button button-quiet" href="#about">More about me <span>↗</span></a>
+              <a class="button button-primary" href="research.html">Read my research <span>↗</span></a>
+              <a class="button button-quiet" href="awards.html">See my awards <span>↗</span></a>
             </div>
           </div>
 
           <div class="terminal-card" aria-label="Current focus">
             <div class="terminal-topbar">
               <span></span><span></span><span></span>
-              <small>focus.txt</small>
+              <small>currently.txt</small>
             </div>
             <div class="terminal-body">
-              <p><span class="prompt">$</span> cat current-focus.txt</p>
-              <p class="terminal-output">web security<br />reverse engineering<br />security tooling</p>
+              <p><span class="prompt">$</span> cat currently.txt</p>
+              <p class="terminal-output">learning security<br />writing things down<br />staying curious</p>
               <p><span class="prompt">$</span> <span class="cursor">_</span></p>
             </div>
           </div>
         </section>
 
-        <section class="section" id="research" aria-labelledby="research-title">
+        <section class="section latest-section" aria-labelledby="latest-title">
           <div class="section-heading">
             <div>
-              <p class="eyebrow">01 / Field notes</p>
-              <h2 id="research-title">Research &amp; write-ups</h2>
+              <p class="eyebrow">01 / Latest note</p>
+              <h2 id="latest-title">A place to keep track.</h2>
             </div>
-            <p class="section-intro">Technical notes, experiments, and practical lessons from the lab.</p>
+            <p class="section-intro">Research write-ups, small experiments, and the occasional lesson learned the hard way.</p>
           </div>
 
-          <div class="research-grid">
-            <article class="research-card featured-card">
-              <div class="card-meta"><span class="tag">START HERE</span><span>Welcome</span></div>
-              <h3>Why I’m building this notebook</h3>
-              <p>A short introduction to this site and the kind of security research I’ll be documenting here.</p>
-              <a class="read-link" href="posts/welcome.html">Read the post <span>→</span></a>
-            </article>
-
-            <article class="research-card muted-card">
-              <div class="card-meta"><span class="tag">COMING SOON</span></div>
-              <h3>Your next research write-up</h3>
-              <p>Add a concise summary of a project, CTF challenge, vulnerability, or tool you explored.</p>
-              <span class="read-link disabled">New post soon <span>⌁</span></span>
-            </article>
-          </div>
-        </section>
-
-        <section class="section split-section" id="awards" aria-labelledby="awards-title">
-          <div>
-            <p class="eyebrow">02 / Milestones</p>
-            <h2 id="awards-title">Awards &amp; achievements</h2>
-            <p class="section-intro">A record of competitions, certifications, projects, and milestones worth remembering.</p>
-          </div>
-          <div class="timeline" aria-label="Awards and achievements">
-            <div class="timeline-item">
-              <span class="timeline-year">2026</span>
-              <div>
-                <h3>Add your first achievement</h3>
-                <p>Competition placement, certification, research publication, or project milestone.</p>
-              </div>
-            </div>
-            <div class="timeline-item placeholder-item">
-              <span class="timeline-year">—</span>
-              <div><p>Your next milestone can go here.</p></div>
-            </div>
-          </div>
-        </section>
-
-        <section class="section about-section" id="about" aria-labelledby="about-title">
-          <div class="about-label"><p class="eyebrow">03 / Profile</p><span class="about-number">H/F</span></div>
-          <div>
-            <h2 id="about-title">About Horia</h2>
-            <p>
-              I’m interested in understanding how software and infrastructure behave under pressure.
-              This is where I’ll share the process behind my work: what I tested, what failed, what I
-              learned, and how the result can be made safer.
-            </p>
-            <p class="principle"><span>01</span> Learn in public. Document carefully. Build responsibly.</p>
-          </div>
+          <article class="research-card featured-card">
+            <div class="card-meta"><span class="tag">START HERE</span><span>Welcome</span></div>
+            <h3>Why I’m building this notebook</h3>
+            <p>A short introduction to this site and what I’ll be documenting here.</p>
+            <a class="read-link" href="posts/welcome.html">Read the post <span>→</span></a>
+          </article>
         </section>
       </main>
 
-      <footer class="site-footer" id="contact">
-        <div>
-          <p class="eyebrow">Have a question?</p>
-          <h2>Let’s connect.</h2>
-        </div>
-        <div class="footer-links">
-          <a href="https://github.com/Horia-F">GitHub ↗</a>
-          <a href="#top">Back to top ↑</a>
-        </div>
+      <footer class="site-footer simple-footer">
         <p class="copyright">© 2026 Horia F. / Built with GitHub Pages.</p>
+        <a class="read-link" href="#top">Back to top ↑</a>
       </footer>
     </div>
   </body>
