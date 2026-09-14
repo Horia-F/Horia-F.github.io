@@ -26,6 +26,11 @@ nav a:hover, nav a.active { color: var(--white); }
 nav .button { padding: 10px 16px; border-radius: 5px; color: #fff; background: var(--purple); }
 nav .button:hover { color: #fff; background: var(--purple-light); }
 .content-page { padding: 110px 0; }
+.home-page { display: grid; min-height: calc(100vh - 82px); place-content: center; justify-items: center; gap: 30px; }
+.home-page h1 { margin: 0; color: var(--white); font-size: clamp(3rem, 8vw, 7rem); font-weight: 700; letter-spacing: -.08em; line-height: 1; }
+.home-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.button-large { min-width: 150px; padding: 14px 20px; border-radius: 5px; color: #fff; background: var(--purple); font-size: 14px; text-align: center; }
+.button-large:hover { color: #fff; background: var(--purple-light); }
 h1 { margin: 0 0 18px; font-size: clamp(2.8rem, 7vw, 5.5rem); letter-spacing: -.07em; line-height: 1; }
 .page-note { color: var(--gray); font-size: 16px; }
 
@@ -35,4 +40,5 @@ h1 { margin: 0 0 18px; font-size: clamp(2.8rem, 7vw, 5.5rem); letter-spacing: -.
   nav { flex-wrap: wrap; justify-content: flex-end; gap: 10px 14px; font-size: 12px; }
   nav .button { display: none; }
   .content-page { padding: 80px 0; }
+  .home-page { min-height: calc(100vh - 122px); }
 }
