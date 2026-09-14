@@ -31,6 +31,10 @@ nav .button:hover { color: #fff; background: var(--purple-light); }
 .home-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
 .button-large { min-width: 150px; padding: 14px 20px; border-radius: 5px; color: #fff; background: var(--purple); font-size: 14px; text-align: center; }
 .button-large:hover { color: #fff; background: var(--purple-light); }
+.intro { width: min(100%, 680px); margin-top: 55px; text-align: left; }
+.intro h2 { margin: 0 0 22px; font-size: clamp(2rem, 4vw, 3rem); letter-spacing: -.06em; }
+.intro p { margin: 0 0 14px; color: var(--gray); font-size: 16px; }
+.intro p:last-child { margin-bottom: 0; }
 h1 { margin: 0 0 18px; font-size: clamp(2.8rem, 7vw, 5.5rem); letter-spacing: -.07em; line-height: 1; }
 .page-note { color: var(--gray); font-size: 16px; }
 
