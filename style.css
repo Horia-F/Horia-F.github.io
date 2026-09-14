@@ -43,6 +43,7 @@ h1 { margin: 0 0 18px; font-size: clamp(2.8rem, 7vw, 5.5rem); letter-spacing: -.
 .post-card-link { color: var(--purple-light); font-size: 14px; font-weight: 700; white-space: nowrap; }
 .post-page { max-width: 850px; padding-top: 80px; padding-bottom: 120px; }
 .post-page h1 { max-width: 760px; font-size: clamp(2.6rem, 6vw, 5rem); }
+.post-date { margin-bottom: 18px; color: var(--gray); font-size: 14px; }
 .post-body { color: var(--gray); font-size: 17px; line-height: 1.8; }
 .post-body h2 { margin: 55px 0 16px; color: var(--white); font-size: 28px; }
 .post-body p { margin: 0 0 20px; }
